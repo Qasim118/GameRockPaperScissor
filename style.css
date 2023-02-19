@@ -1,0 +1,96 @@
+.section{
+    padding-top: 70px;
+    width: 100%;
+    height: auto;
+   background-color: black;
+   
+}
+
+
+
+.section1column {
+text-align: center;
+
+color: white;
+font-size: 20;
+font-weight: bold;
+}
+
+.section1column #game_name{
+    font-size: 40px;
+    background-color: gold;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 400;
+}
+
+.section2{
+    margin-top: -20px;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding-bottom: 70px;
+    display: flex;
+}
+
+.section2 div{
+    flex: 1 1 0;
+   
+}
+.section2 p{
+    color: white;
+    text-align: center;
+}
+
+.column1section{
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: rgb(215, 215, 215);
+    
+}
+.column1section div{
+    flex: 1 1 0;
+    border: 1px solid white;
+}
+
+.column1section img{
+    cursor: pointer;
+    
+}
+
+.column2section{
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: rgb(215, 215, 215);
+}
+
+.column2section div{
+    flex: 1 1 0;
+    border: 1px solid white;
+}
+
+#playagain{
+ 
+    background-color: yellow;
+    color: black;
+    padding-top: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 13px;
+    cursor: pointer;
+    display: none;
+    
+
+}
+
+
+.section3 p{
+    color: white;
+    font-size: 22px;
+    margin-top: -15px;
+
+}

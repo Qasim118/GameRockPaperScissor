@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+
+    <div class="section">
+        <div class="section1column">
+
+            <p>Welcom to</p>
+            <p id="game_name">Rock - Paper - Scissor</p>
+            <p>Game</p>
+            <p>You have 5 rounds to win this game</p>
+            
+            <p id="compareResult"></p>
+            <p id="compScoore"> </p>
+            <p id="playerScoore"> </p>  
+            <p id="result"></p>
+            <button id="playagain" onclick="location.reload()"> Play Again </button>
+        </div>
+    
+
+        <div class="section2">
+        <div class="section2column1">
+            <p>Your Turn</p>
+            <div class="column1section">
+                <div class="clomun1column1">
+                    <p id="hrock"> Rock </p>
+                    <img id="rock" src="./rock.png" alt="rock" width="200px" height="200px" onclick="userselect('rock')">
+                </div>
+                <div class="column1column2">
+                    <p id="hpaper">Paper</p>
+                    <img id="paper" src="./paper.png" alt="rock" width="200px" height="200px" onclick="userselect('paper')">
+                </div>
+                <div class="column1column3">
+                    <p id="hscissor">Scissor</p>
+                    <img id="scissor" src="./scissor.png" alt="rock" width="200px" height="200px" onclick="userselect('scissor')">
+                </div>
+                
+                
+            </div>
+            
+        </div>
+        <div class="Section2column2">
+            <p>Computer Turn</p>
+            <div class="column2section">
+                <div class="column2column1">
+                    <p id="hcrock"> Rock </p>
+                    <img id="crock" src="./rock.png" alt="rock" width="200px" height="200px"  >
+                </div>
+                <div class="column2column2">
+                    <p id="hcpaper"> Paper </p>
+                    <img id="cpaper" src="./paper.png" alt="rock" width="200px" height="200px" >
+                </div>
+                <div class="column2column3">
+                    <p id="hcscissor"> Scissor </p>
+                    <img id="cscissor" src="./scissor.png" alt="rock" width="200px" height="200px" >
+                </div>
+            </div>
+        </div>
+        
+        </div>
+    
+        <div class="section3">
+ 
+     </div>
+
+    
+
+    </div>
+
+
+
+
+
+    
+    
+</body>
+</html>
